@@ -29,3 +29,6 @@ Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersio
 Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\bin\Debug\en-US\Script Builder.resources.dll
 Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\obj\Debug\Script Builder.exe.manifest
 Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\obj\Debug\Script Builder.application
+Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\ScriptBuilder\bin\Debug\Script Builder.exe.config
+Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\ScriptBuilder\obj\Debug\Script Builder.exe
+Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\ScriptBuilder\obj\Debug\Script Builder.pdb
