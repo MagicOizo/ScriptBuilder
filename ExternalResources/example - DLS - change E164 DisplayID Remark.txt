@@ -1,0 +1,14 @@
+# Tabelle:
+# |e164-alt       |e164-neu       |remark        |
+# +---------------+---------------+--------------+
+# |492215762484   |498970072484   |Siemens Koeln |
+# |492215763316   |498970073316   |Siemens Koeln |
+#
+# Benötigter Body:
+ModifyDevice;%e164-alt%;remark=%remark%;e164=%e164-neu%;display-id=%e164-neu[8,$]%;display-id-unicode=%e164-neu[8,$]%;
+#
+# Ausgabe:
+# ModifyDevice;492215762484;remark=Siemens Koeln;e164=498970072484;display-id=2484;display-id-unicode=2484;
+# ModifyDevice;492215763316;remark=Siemens Koeln;e164=498970073316;display-id=3316;display-id-unicode=3316;
+#
+# Ab Script Builder Version: 0.9.0.4

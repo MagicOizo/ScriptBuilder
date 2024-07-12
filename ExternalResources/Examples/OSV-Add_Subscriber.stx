@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Script Builder Template File-->
+<Template Build="0.9.9.1">
+  <Table>
+    <Header>
+      <Cell>e164</Cell>
+      <Cell>REALM</Cell>
+      <Cell>Kennung</Cell>
+      <Cell>Password</Cell>
+      <Cell>DisplayName</Cell>
+      <Cell>FeatureProfile_Name</Cell>
+      <Cell>DeviceType</Cell>
+      <Cell>COS</Cell>
+      <Cell>AUN</Cell>
+      <Cell>RateArea</Cell>
+      <Cell>NumberingPlan</Cell>
+      <Cell>BG_Name</Cell>
+    </Header>
+  </Table>
+  <File FileName="D:\Privat\CSharp-Projects\Script-Builder_for_OpenScape_Voice\Beispiele\Output.txt" FileType="3">
+    <Simple Name="Header">FILE VERSION:11.00.01:MP2</Simple>
+    <Repeated Name="DNs">HomeDn
+	,StartCode="%e164[8,$]%"	
+	,EndCode="%e164[8,$]%"	
+	,OfficeCode=%e164[0,7]%
+	,CountryCode="%e164[0,1]%"	
+	,AreaCode="%e164[2,3]%"	
+	,Exchange="%e164[4,7]%"	
+	,DestinationName="%e164%"	
+	,DestinationType="DtEp"	
+	,SubscriberName="%e164%"	
+	,NewDn=""	
+	,LnpStatus="LnpNonPorted"	
+;;</Repeated>
+    <Repeated Name="Subscribers">CS_SIP
+	,SUBSCRIBERDN="%e164%"
+	,RETAILER="%e164%"
+	,ACCOUNTID="%e164%"
+	,BILLINGID="%e164%"
+	,CLASSOFSERVICE="%COS%"
+	,RATEAREA="%RateArea%"
+	,CALLINGLOC=""
+	,TESTLINEFLAG=0
+	,NUMBERPLANNAME="%NumberingPlan%"
+	,BGNAME="%BG_Name%"
+	,DISPLAYNAME="%DisplayName%"
+	,UNICODEDISPLAYNAME=""
+	,TIMEZONE="Europe/Berlin"
+	,PIN=""
+	,PUBLICPIN=""
+	,SUBSCRIBERSTATUS="Active"
+	,INTERCEPTANNOUNCEMENT="None"
+	,LNPCODE="LNP-None"
+	,NEWSERVICEID=""
+	,LANGUAGE="System Default"
+	,BGDEPTNAME=""
+	,BEARER_SPEECH=1
+	,BEARER_3_1K=0
+	,BEARER_56K=0
+	,BEARER_64K=0
+	,FAXMODE="G711"
+	,ECHOCANCELLATION=1
+	,SILENCESUPPRESSION=0
+	,PIC_1=""
+	,PIC_2=""
+	,PIC_3=""
+	,PIC_4=""
+	,FAXSTATISTICS=0
+	,OUTBANDDTMFSIGNALING=0
+	,SUPPRESSOUTBANDDTMFWITHG711=0
+	,QOSPROFILENAME=""
+	,QOSPROFILEBGNAME=""
+	,EXTERNALDNFLAG=1
+	,COUNTRYCODELEN=2
+	,FEATUREPROFILENAME="%FeatureProfile_Name%"
+	,FEATUREPROFILEBGNAME="%BG_Name%"
+	,PHONENAME="%e164%"
+	,REGTYPE="Dynamic"
+	,LATADIGITS=""
+	,IPSEC_REALM="%REALM%"
+	,IPSEC_UNAME="%Kennung%"
+	,IPSEC_PW="%Password%"
+	,IPSEC_SCHEME="digest-authentication"
+	,MAXSIPSESSIONS=0
+	,TRANSPORTTYPE="UDP"
+	,TRUSTEDSUB=0
+	,GSMSUB=0
+	,MEDIAREDIRECTALLOWED=0
+	,STATICIMSSUB=0
+	,AORPERCONTACT=0
+	,KEYSETUSE="KeysetNone"
+	,ASSOCIATEDSIPENDPOINTNAME=""
+	,LOOSEROUTINGURI=""	
+;;
+/IF %AUN% &gt; 0
+AF
+	,SUBSCRIBERDN="%e164%"
+		BgCPU
+		,ENABLED=1
+;;
+/FI
+UMB
+	,SUBSCRIBERDN="%e164%"
+	,CPUID=%AUN%
+	,BGLINENAME="%e164[8,$]%"
+	,UNICODEBGLINENAME=""
+	,BGATTENDANTNUMBERFLAG=0
+	,BGEXTENSION="%e164[8,$]%"
+	,BGDEPTNAME=""
+;;</Repeated>
+  </File>
+</Template>

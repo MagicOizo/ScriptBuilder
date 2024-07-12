@@ -3,24 +3,23 @@
 <Options>
   <Basic>
     <VariableMarker>%</VariableMarker>
-    <DokuPath>Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\bin\Debug\OSV-Scripting-Help.pdf</DokuPath>
+    <DokuPath>D:\C#-Projekte\Script-Builder\bin\Debug\OSV-Scripting-Help_V10.pdf</DokuPath>
     <Debugging>Off</Debugging>
-    <Language>English</Language>
+    <Language>Deutsch</Language>
     <StartPathType>AnybodysLast</StartPathType>
-    <WriteStartPathOnEnd>True</WriteStartPathOnEnd>
-    <StartPath>Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\bin\Debug</StartPath>
+    <WriteStartPathOnEnd>False</WriteStartPathOnEnd>
   </Basic>
   <MakroKeys>
     <MakroKey>
       <Index>0</Index>
       <KeyName>Example - DLS - Change E164</KeyName>
-      <KeyTarget>D:\Privat\CSharp-Projects\Script-Builder_for_OpenScape_Voice\Script-Builder_for_OpenScape_Voice_new\bin\Release\V0.9_BETA\example - DLS - change E164 DisplayID Remark.txt</KeyTarget>
+      <KeyTarget>D:\C#-Projekte\Script-Builder\bin\Debug\example - DLS - change E164 DisplayID Remark.txt</KeyTarget>
       <TargetTextBox>Repeated</TargetTextBox>
     </MakroKey>
     <MakroKey>
       <Index>1</Index>
       <KeyName>Example - OSV - New Subscriber</KeyName>
-      <KeyTarget>D:\Privat\CSharp-Projects\Script-Builder_for_OpenScape_Voice\Script-Builder_for_OpenScape_Voice_new\bin\Release\V0.9_BETA\example - OSV - Add Subscribers.txt</KeyTarget>
+      <KeyTarget>D:\C#-Projekte\Script-Builder\bin\Debug\example - OSV - Add Subscribers.txt</KeyTarget>
       <TargetTextBox>Repeated</TargetTextBox>
     </MakroKey>
   </MakroKeys>

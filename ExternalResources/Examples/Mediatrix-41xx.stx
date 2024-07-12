@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Script Builder Template File-->
+<Template Build="0.9.9.1">
+  <Table>
+    <Header>
+      <Cell>Gateway</Cell>
+      <Cell>Port</Cell>
+      <Cell>Index</Cell>
+      <Cell>e164</Cell>
+      <Cell>DigestRealm</Cell>
+      <Cell>DigestPW</Cell>
+    </Header>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port01</Cell>
+      <Cell>1</Cell>
+      <Cell>498970071111</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port02</Cell>
+      <Cell>2</Cell>
+      <Cell>498970071112</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port03</Cell>
+      <Cell>3</Cell>
+      <Cell>498970071113</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port04</Cell>
+      <Cell>4</Cell>
+      <Cell>498970071114</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port05</Cell>
+      <Cell>5</Cell>
+      <Cell>498970071115</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port06</Cell>
+      <Cell>6</Cell>
+      <Cell>498970071116</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port07</Cell>
+      <Cell>7</Cell>
+      <Cell>498970071117</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port08</Cell>
+      <Cell>8</Cell>
+      <Cell>498970071118</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port09</Cell>
+      <Cell>9</Cell>
+      <Cell>498970071119</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port10</Cell>
+      <Cell>10</Cell>
+      <Cell>498970071120</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port11</Cell>
+      <Cell>11</Cell>
+      <Cell>498970071121</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port12</Cell>
+      <Cell>12</Cell>
+      <Cell>498970071122</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port13</Cell>
+      <Cell>13</Cell>
+      <Cell>498970071123</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port14</Cell>
+      <Cell>14</Cell>
+      <Cell>498970071124</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port15</Cell>
+      <Cell>15</Cell>
+      <Cell>498970071125</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port16</Cell>
+      <Cell>16</Cell>
+      <Cell>498970071126</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port17</Cell>
+      <Cell>17</Cell>
+      <Cell>498970071127</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port18</Cell>
+      <Cell>18</Cell>
+      <Cell>498970071128</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port19</Cell>
+      <Cell>19</Cell>
+      <Cell>498970071129</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port20</Cell>
+      <Cell>20</Cell>
+      <Cell>498970071130</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port21</Cell>
+      <Cell>21</Cell>
+      <Cell>498970071131</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port22</Cell>
+      <Cell>22</Cell>
+      <Cell>498970071132</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port23</Cell>
+      <Cell>23</Cell>
+      <Cell>498970071133</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test1</Cell>
+      <Cell>Port24</Cell>
+      <Cell>24</Cell>
+      <Cell>498970071134</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port01</Cell>
+      <Cell>1</Cell>
+      <Cell>498970071135</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port02</Cell>
+      <Cell>2</Cell>
+      <Cell>498970071136</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port03</Cell>
+      <Cell>3</Cell>
+      <Cell>498970071137</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port04</Cell>
+      <Cell>4</Cell>
+      <Cell>498970071138</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port05</Cell>
+      <Cell>5</Cell>
+      <Cell>498970071139</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port06</Cell>
+      <Cell>6</Cell>
+      <Cell>498970071140</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port07</Cell>
+      <Cell>7</Cell>
+      <Cell>498970071141</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port08</Cell>
+      <Cell>8</Cell>
+      <Cell>498970071142</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port09</Cell>
+      <Cell>9</Cell>
+      <Cell>498970071143</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port10</Cell>
+      <Cell>10</Cell>
+      <Cell>498970071144</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port11</Cell>
+      <Cell>11</Cell>
+      <Cell>498970071145</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port12</Cell>
+      <Cell>12</Cell>
+      <Cell>498970071146</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port13</Cell>
+      <Cell>13</Cell>
+      <Cell>498970071147</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port14</Cell>
+      <Cell>14</Cell>
+      <Cell>498970071148</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port15</Cell>
+      <Cell>15</Cell>
+      <Cell>498970071149</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port16</Cell>
+      <Cell>16</Cell>
+      <Cell>498970071150</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port17</Cell>
+      <Cell>17</Cell>
+      <Cell>498970071151</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port18</Cell>
+      <Cell>18</Cell>
+      <Cell>498970071152</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port19</Cell>
+      <Cell>19</Cell>
+      <Cell>498970071153</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port20</Cell>
+      <Cell>20</Cell>
+      <Cell>498970071154</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port21</Cell>
+      <Cell>21</Cell>
+      <Cell>498970071155</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port22</Cell>
+      <Cell>22</Cell>
+      <Cell>498970071156</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port23</Cell>
+      <Cell>23</Cell>
+      <Cell>498970071157</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+    <Row>
+      <Cell>test2</Cell>
+      <Cell>Port24</Cell>
+      <Cell>24</Cell>
+      <Cell>498970071158</Cell>
+      <Cell>test.com</Cell>
+      <Cell>123456</Cell>
+    </Row>
+  </Table>
+  <Serial FileName="D:\Privat\CSharp-Projects\Script-Builder_for_OpenScape_Voice\Beispiele\Output\Mediatrix41xx-%Gateway%.txt" FileType="3">
+    <SerialSourceTable LinkTableA="Gateway" LinkTableB="Gateway">
+      <Header>
+        <Cell>Gateway</Cell>
+        <Cell>APassword</Cell>
+        <Cell>IPAddr</Cell>
+        <Cell>SubnetBits</Cell>
+        <Cell>DefaultGW</Cell>
+        <Cell>SNTP</Cell>
+        <Cell>TransferServer</Cell>
+        <Cell>TransferUser</Cell>
+        <Cell>TransferPW</Cell>
+        <Cell>DNS1</Cell>
+        <Cell>DNS2</Cell>
+        <Cell>DNS3</Cell>
+        <Cell>DomainName</Cell>
+        <Cell>Syslog</Cell>
+        <Cell>StaticProxy</Cell>
+        <Cell>Registrar</Cell>
+      </Header>
+      <Row>
+        <Cell>test1</Cell>
+        <Cell>siemens</Cell>
+        <Cell>192.168.10.1</Cell>
+        <Cell>24</Cell>
+        <Cell>192.168.10.254</Cell>
+        <Cell>192.168.0.100</Cell>
+        <Cell>192.168.0.200</Cell>
+        <Cell>osvgateways</Cell>
+        <Cell>admin123</Cell>
+        <Cell>192.168.0.10</Cell>
+        <Cell>192.168.0.11</Cell>
+        <Cell>215.160.10.111</Cell>
+        <Cell>test.com</Cell>
+        <Cell>192.168.0.70</Cell>
+        <Cell>192.168.1.10</Cell>
+        <Cell>192.168.1.10</Cell>
+      </Row>
+      <Row>
+        <Cell>test2</Cell>
+        <Cell>siemens</Cell>
+        <Cell>192.168.10.2</Cell>
+        <Cell>24</Cell>
+        <Cell>192.168.10.254</Cell>
+        <Cell>192.168.0.100</Cell>
+        <Cell>192.168.0.200</Cell>
+        <Cell>osvgateways</Cell>
+        <Cell>admin123</Cell>
+        <Cell>192.168.0.10</Cell>
+        <Cell>192.168.0.11</Cell>
+        <Cell>215.160.10.111</Cell>
+        <Cell>test.com</Cell>
+        <Cell>192.168.0.70</Cell>
+        <Cell>192.168.1.10</Cell>
+        <Cell>192.168.1.10</Cell>
+      </Row>
+    </SerialSourceTable>
+    <SerialHeader Name="Header">#********************
+#********************
+#SERVICE: Aaa
+#********************
+#********************
+
+Aaa.Users[UserName=admin].Password=%APassword%
+Aaa.USers[UserName=public].Password=%APassword%
+
+Aaa.ServicesAaaType[Service=Cli].AuthenticationType="Local"
+Aaa.ServicesAaaType[Service=Cli].AccountingType="None"
+Aaa.ServicesAaaType[Service=Snmp].AuthenticationType="Local"
+Aaa.ServicesAaaType[Service=Snmp].AccountingType="None"
+Aaa.ServicesAaaType[Service=Web].AuthenticationType="Local"
+Aaa.ServicesAaaType[Service=Web].AccountingType="None"
+
+
+Aaa.BatchUser=admin
+Aaa.RadiusServersTimeoutS=5
+
+
+#********************
+#********************
+#SERVICE: Bni
+#********************
+#********************
+
+Bni.NetworkInterfaces[InterfaceName=Uplink].ConnectionType=IpStatic
+Bni.NetworkInterfaces[InterfaceName=Uplink].StaticIpAddr=%IPAddr%/%SubnetBits%
+Bni.NetworkInterfaces[InterfaceName=Uplink].Activation=Enable
+
+Bni.PppServiceName=""
+Bni.PppRetryInterval=10
+Bni.PppAuthenticationProtocol=Chap
+Bni.PppIdentity=""
+Bni.PppSecret=""
+</SerialHeader>
+    <Simple Name="Middle1">#********************
+#********************
+#SERVICE: CRout
+#********************
+#********************
+
+CRout.AutoRouting[EpId=Port01].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port01].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port02].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port02].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port03].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port03].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port04].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port04].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port05].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port05].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port06].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port06].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port07].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port07].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port08].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port08].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port09].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port09].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port10].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port10].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port11].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port11].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port12].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port12].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port13].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port13].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port14].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port14].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port15].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port15].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port16].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port16].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port17].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port17].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port18].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port18].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port19].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port19].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port20].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port20].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port21].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port21].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port22].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port22].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port23].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port23].AutoRoutingGateway=OSCV
+CRout.AutoRouting[EpId=Port24].Autoroutable=Enable
+CRout.AutoRouting[EpId=Port24].AutoRoutingGateway=OSCV
+
+CRout.AutoRoutingEnable=Enable
+CRout.AutoRoutingCriteriaType=E164
+CRout.AutoRoutingIncomingMappings=""
+CRout.AutoRoutingOutgoingMappings=""
+CRout.AutoRoutingIncomingSignalingProperties=""
+CRout.AutoRoutingOutgoingSignalingProperties=""
+CRout.MinSeverity=Warning
+
+
+
+#********************
+#********************
+#SERVICE: Cert
+#********************
+#********************
+</Simple>
+    <SerialHeader Name="System-Configuration">#********************
+#********************
+#SERVICE: Conf
+#********************
+#********************
+
+
+Conf.ScriptGenericFileName=%mac%.cfg
+Conf.ScriptSpecificFileName=""
+Conf.ScriptsLocation=.
+Conf.ScriptsTransferProtocol=Tftp
+Conf.ScriptsTransferUsername=""
+Conf.ScriptsTransferPassword=""
+Conf.ScriptsTransferSrvHostname=%TransferServer%
+Conf.ScriptsTransferOnRestartEnable=Disable
+Conf.ScriptsTransferRetriesNumber=-1
+Conf.ScriptsTransferPeriodicEnable=Disable
+Conf.ScriptsTransferPeriodicTimeUnit=Hours
+Conf.ScriptsTransferInterval=1
+Conf.ScriptsTransferTimeOfDay=-1
+Conf.ScriptsDhcpDownloadEnable=Enable
+Conf.ScriptsSecretKey=""
+Conf.ScriptsAllowRepeatedExecution=Enable
+Conf.ScriptExportContent=AllConfig
+Conf.ScriptExportUrl=""
+Conf.ScriptExportSecretKey=""
+
+Conf.ImageFileName=%IPAddr%.conf
+Conf.ImageLocation=./mediatrix_backup
+Conf.ImageBackupContent=Config
+Conf.ImageTransferProtocol=Ftp
+Conf.ImageTransferUsername=%TransferUser%
+Conf.ImageTransferPassword=%TransferPW%
+Conf.ImageTransferSrvHostname=%TransferServer%
+Conf.ImagePrivacyAlgo=None
+Conf.ImageSecretKey=""
+</SerialHeader>
+    <Simple Name="Middle2">#********************
+#********************
+#SERVICE: EpServ
+#********************
+#********************
+
+EpServ.CallDtmfMapAllowed[Index=1].Enable=Enable
+EpServ.CallDtmfMapAllowed[Index=1].ApplyTo=Unit
+EpServ.CallDtmfMapAllowed[Index=1].DtmfMap="x.T"
+EpServ.CallDtmfMapAllowed[Index=1].DtmfTransformation="x"
+EpServ.CallDtmfMapAllowed[Index=1].TargetHost=""
+EpServ.CallDtmfMapAllowed[Index=2].Enable=Enable
+EpServ.CallDtmfMapAllowed[Index=2].ApplyTo=Unit
+EpServ.CallDtmfMapAllowed[Index=2].DtmfMap="*x.T"
+EpServ.CallDtmfMapAllowed[Index=2].DtmfTransformation="x"
+EpServ.CallDtmfMapAllowed[Index=2].TargetHost=""
+EpServ.CallDtmfMapAllowed[Index=3].Enable=Enable
+EpServ.CallDtmfMapAllowed[Index=3].ApplyTo=Unit
+EpServ.CallDtmfMapAllowed[Index=3].DtmfMap="#x.T"
+EpServ.CallDtmfMapAllowed[Index=3].DtmfTransformation="x"
+EpServ.CallDtmfMapAllowed[Index=3].TargetHost=""
+EpServ.CallDtmfMapAllowed[Index=4].Enable=Enable
+EpServ.CallDtmfMapAllowed[Index=4].ApplyTo=Unit
+EpServ.CallDtmfMapAllowed[Index=4].DtmfMap="*x.T#"
+EpServ.CallDtmfMapAllowed[Index=4].DtmfTransformation="x{#}"
+EpServ.CallDtmfMapAllowed[Index=4].TargetHost=""
+EpServ.CallDtmfMapAllowed[Index=5].Enable=Enable
+EpServ.CallDtmfMapAllowed[Index=5].ApplyTo=Unit
+EpServ.CallDtmfMapAllowed[Index=5].DtmfMap="#x.T#"
+EpServ.CallDtmfMapAllowed[Index=5].DtmfTransformation="x{#}"
+EpServ.CallDtmfMapAllowed[Index=5].TargetHost=""
+EpServ.CallDtmfMapAllowed[Index=6].Enable=Disable
+EpServ.CallDtmfMapAllowed[Index=7].Enable=Disable
+EpServ.CallDtmfMapAllowed[Index=8].Enable=Disable
+EpServ.CallDtmfMapAllowed[Index=9].Enable=Disable
+EpServ.CallDtmfMapAllowed[Index=10].Enable=Disable
+
+EpServ.DefaultCallHookFlashProcessing=ProcessLocally
+EpServ.DefaultCallAllowDirectIp=Disable
+EpServ.DefaultAutoCallEnable=Disable
+EpServ.DefaultAutoCallTargetAddress=""
+EpServ.DefaultHoldEnable=Enable
+EpServ.DefaultCallWaitingEnable=Disable
+EpServ.DefaultCallWaitingCancelDtmfMap=""
+EpServ.DefaultSecondCallEnable=Enable
+EpServ.DefaultTransferBlindEnable=Enable
+EpServ.DefaultTransferAttendedEnable=Enable
+EpServ.DefaultConferenceEnable=Enable
+EpServ.DefaultForwardUnconditionalEnable=Disable
+EpServ.DefaultForwardUnconditionalDtmfMapActivation=""
+EpServ.DefaultForwardUnconditionalDtmfMapDeactivation=""
+EpServ.DefaultForwardOnBusyEnable=Disable
+EpServ.DefaultForwardOnBusyDtmfMapActivation=""
+EpServ.DefaultForwardOnBusyDtmfMapDeactivation=""
+EpServ.DefaultForwardNoAnswerEnable=Disable
+EpServ.DefaultForwardNoAnswerTimeout=5000
+EpServ.DefaultForwardNoAnswerDtmfMapActivation=""
+EpServ.DefaultForwardNoAnswerDtmfMapDeactivation=""
+EpServ.DefaultCallCompletionBusySubscriberEnable=Disable
+EpServ.DefaultCallCompletionBusySubscriberDtmfMapActivation=""
+EpServ.DefaultCallCompletionNoReplyEnable=Disable
+EpServ.DefaultCallCompletionNoReplyDtmfMapActivation=""
+EpServ.DefaultCallCompletionDtmfMapDeactivation=""
+EpServ.DefaultCallCompletionExpirationTimeout=180
+EpServ.DefaultCallCompletionMethod=MonitoringOnly
+EpServ.DefaultCallCompletionAutoReactivateEnable=Disable
+EpServ.DefaultCallCompletionAutoReactivateDelay=30
+EpServ.DefaultCallCompletionEarlyMediaBehaviour=None
+EpServ.DefaultCallCompletionPollingInterval=5
+EpServ.DefaultDelayedHotlineEnable=Disable
+EpServ.DefaultDelayedHotlineCondition=FirstDtmfTimeout
+EpServ.DefaultDelayedHotlineTargetAddress=""
+EpServ.DtmfMapTimeoutCompletion=60000
+EpServ.DtmfMapTimeoutFirstDtmf=20000
+EpServ.DtmfMapTimeoutInterDtmf=3000
+EpServ.MinSeverity=Warning
+
+
+
+#********************
+#********************
+#SERVICE: Eth
+#********************
+#********************
+
+
+Eth.Ports[Name=ETH1].Speed=Full100
+</Simple>
+    <SerialHeader Name="Middle3">#********************
+#********************
+#SERVICE: Fpu
+#********************
+#********************
+
+
+Fpu.LanguageSelection=English
+Fpu.MfpLocation=.
+Fpu.MfpTransferProtocol=Tftp
+Fpu.MfpTransferUsername=""
+Fpu.MfpTransferPassword=""
+Fpu.MfpTransferSrvHostname=%TransferServer%
+Fpu.AutomaticRestartEnable=Enable
+
+
+
+#********************
+#********************
+#SERVICE: Hoc
+#********************
+#********************
+
+Hoc.StaticDnsServers[Priority=1].IpAddress=%DNS1%
+Hoc.StaticDnsServers[Priority=2].IpAddress=%DNS2%
+Hoc.StaticDnsServers[Priority=3].IpAddress=%DNS2%
+
+Hoc.AutomaticConfigurationInterface=Uplink
+Hoc.HostName=%Gateway%
+Hoc.StaticTimeZone=WEST-1DWEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00
+Hoc.DomainNameConfigSource=Static
+Hoc.StaticDomainName=%DomainName%
+Hoc.SntpConfigSource=Static
+Hoc.SntpSynchronizationPeriod=1440
+Hoc.SntpSynchronizationPeriodOnError=60
+Hoc.SntpTimeZone=WEST-1DWEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00
+Hoc.StaticSntpServerHost=%SNTP%
+Hoc.DefaultRouterConfigSource=Static
+Hoc.StaticDefaultRouter=%DefaultGW%
+Hoc.DnsServersConfigSource=Static
+</SerialHeader>
+    <Simple Name="Middle4">#********************
+#********************
+#SERVICE: LQos
+#********************
+#********************
+
+LQos.Ethernet8021QTagging[InterfaceName=eth1].EnablePriorityTagging=Disable
+LQos.Ethernet8021QTagging[InterfaceName=eth1].DefaultUserPriority=0
+
+LQos.ServiceClasses[ID=100].DiffServ=184
+LQos.ServiceClasses[ID=200].DiffServ=184
+LQos.ServiceClasses[ID=300].DiffServ=184
+LQos.ServiceClasses[ID=400].DiffServ=184
+
+LQos.DefaultDiffServ=0
+
+
+
+
+#********************
+#********************
+#SERVICE: Mipt
+#********************
+#********************
+
+Mipt.DefaultCodecGenericVoiceActivityDetection=Disable
+Mipt.DefaultCodecG711MulawVoiceEnable=Enable
+Mipt.DefaultCodecG711MulawVoicePriority=0
+Mipt.DefaultCodecG711MulawDataEnable=Enable
+Mipt.DefaultCodecG711MulawDataPriority=0
+Mipt.DefaultCodecG711MulawMinPTime=20
+Mipt.DefaultCodecG711MulawMaxPTime=20
+Mipt.DefaultCodecG711AlawVoiceEnable=Enable
+Mipt.DefaultCodecG711AlawVoicePriority=1
+Mipt.DefaultCodecG711AlawDataEnable=Enable
+Mipt.DefaultCodecG711AlawDataPriority=1
+Mipt.DefaultCodecG711AlawMinPTime=20
+Mipt.DefaultCodecG711AlawMaxPTime=20
+Mipt.DefaultCodecG723VoiceEnable=Enable
+Mipt.DefaultCodecG723VoicePriority=0
+Mipt.DefaultCodecG723Bitrate=Rate63kbps
+Mipt.DefaultCodecG723MinPTime=30
+Mipt.DefaultCodecG723MaxPTime=60
+Mipt.DefaultCodecG726r16kbpsVoiceEnable=Disable
+Mipt.DefaultCodecG726r16kbpsVoicePriority=0
+Mipt.DefaultCodecG726r16kbpsPayloadType=97
+Mipt.DefaultCodecG726r16kbpsMinPTime=30
+Mipt.DefaultCodecG726r16kbpsMaxPTime=30
+Mipt.DefaultCodecG726r24kbpsVoiceEnable=Disable
+Mipt.DefaultCodecG726r24kbpsVoicePriority=0
+Mipt.DefaultCodecG726r24kbpsPayloadType=98
+Mipt.DefaultCodecG726r24kbpsMinPTime=30
+Mipt.DefaultCodecG726r24kbpsMaxPTime=30
+Mipt.DefaultCodecG726r32kbpsVoiceEnable=Disable
+Mipt.DefaultCodecG726r32kbpsVoicePriority=0
+Mipt.DefaultCodecG726r32kbpsDataEnable=Disable
+Mipt.DefaultCodecG726r32kbpsDataPriority=0
+Mipt.DefaultCodecG726r32kbpsPayloadType=99
+Mipt.DefaultCodecG726r32kbpsMinPTime=30
+Mipt.DefaultCodecG726r32kbpsMaxPTime=30
+Mipt.DefaultCodecG726r40kbpsVoiceEnable=Disable
+Mipt.DefaultCodecG726r40kbpsVoicePriority=0
+Mipt.DefaultCodecG726r40kbpsDataEnable=Disable
+Mipt.DefaultCodecG726r40kbpsDataPriority=0
+Mipt.DefaultCodecG726r40kbpsPayloadType=100
+Mipt.DefaultCodecG726r40kbpsMinPTime=30
+Mipt.DefaultCodecG726r40kbpsMaxPTime=30
+Mipt.DefaultCodecG729VoiceEnable=Enable
+Mipt.DefaultCodecG729VoicePriority=0
+Mipt.DefaultCodecG729MinPTime=30
+Mipt.DefaultCodecG729MaxPTime=80
+Mipt.DefaultCodecG729VoiceActivityDetection=Disable
+Mipt.DefaultCodecT38DataEnable=Enable
+Mipt.DefaultCodecT38DataPriority=10
+Mipt.DefaultCodecT38RedundancyLevel=3
+Mipt.DefaultCodecT38FinalFramesRedundancy=0
+Mipt.DefaultCodecT38NoSignalEnable=Disable
+Mipt.DefaultCodecT38NoSignalTimeout=1
+Mipt.DefaultCodecT38DetectionThreshold=Default
+Mipt.DefaultCodecClearModeVoiceEnable=Enable
+Mipt.DefaultCodecClearModeVoicePriority=0
+Mipt.DefaultCodecClearModeDataEnable=Enable
+Mipt.DefaultCodecClearModeDataPriority=10
+Mipt.DefaultCodecClearModePayloadType=124
+Mipt.DefaultCodecClearModeMinPTime=10
+Mipt.DefaultCodecClearModeMaxPTime=30
+Mipt.DefaultCodecClearChannelVoiceEnable=Enable
+Mipt.DefaultCodecClearChannelVoicePriority=0
+Mipt.DefaultCodecClearChannelDataEnable=Enable
+Mipt.DefaultCodecClearChannelDataPriority=10
+Mipt.DefaultCodecClearChannelPayloadType=125
+Mipt.DefaultCodecClearChannelMinPTime=10
+Mipt.DefaultCodecClearChannelMaxPTime=30
+Mipt.DefaultCodecXCCDVoiceEnable=Enable
+Mipt.DefaultCodecXCCDVoicePriority=0
+Mipt.DefaultCodecXCCDDataEnable=Enable
+Mipt.DefaultCodecXCCDDataPriority=10
+Mipt.DefaultCodecXCCDPayloadType=126
+Mipt.DefaultCodecXCCDMinPTime=10
+Mipt.DefaultCodecXCCDMaxPTime=30
+Mipt.DefaultJitterBufferLevel=Normal
+Mipt.DefaultJitterBufferCustomMinLength=30
+Mipt.DefaultJitterBufferCustomMaxLength=125
+Mipt.DefaultDtmfTransportMethod=OutOfBandUsingRtp
+Mipt.DefaultDtmfTransportPayloadType=96
+Mipt.IpTransportRtpBasePort=5004
+Mipt.IpTransportSrtpBasePort=5004
+Mipt.IpTransportT38BasePort=6004
+Mipt.DefaultSecurityRtpMode=Unsecure
+Mipt.DefaultSecurityKeyManagement=Mikey
+Mipt.DefaultSecurityRtpEncryption=AesCm128
+Mipt.AllowUnsecureT38WithSrtp=Disable
+Mipt.StatsCollectionPeriodDuration=0
+Mipt.StatsPerConnectionNotificationEnable=Disable
+Mipt.StatsPerPeriodNotificationEnable=Disable
+Mipt.PcmCaptureEnable=Disable
+Mipt.PcmCaptureEndpoint=""
+Mipt.PcmCaptureIpAddr=""
+Mipt.DspTracingEnable=Disable
+Mipt.DspStatsEnable=Disable
+Mipt.DspStatsInterval=0
+Mipt.DspStatsFilter=0
+</Simple>
+    <Repeated Name="UserAgents">SipEp.UserAgent[EpId=%Port%].Username=%e164%
+SipEp.UserAgent[EpId=%Port%].FriendlyName=disabled
+SipEp.UserAgent[EpId=%Port%].Register=Disable
+SipEp.UserAgent[EpId=%Port%].GatewayName=OSCV
+SipEp.UserAgent[EpId=%Port%].Publish=Disable</Repeated>
+    <Simple Name="Middle6">SipEp.InsertAuthentication
+SipEp.InsertAuthentication
+SipEp.InsertAuthentication
+SipEp.InsertAuthentication
+</Simple>
+    <Repeated Name="Authentication">SipEp.Authentication[Index=%Index%].ApplyTo=Endpoint
+SipEp.Authentication[Index=%Index%].EpId=%Port%
+SipEp.Authentication[Index=%Index%].ValidateRealm=Enable
+SipEp.Authentication[Index=%Index%].Realm=%DigestRealm%
+SipEp.Authentication[Index=%Index%].Username=%e164%
+SipEp.Authentication[Index=%Index%].Password=%DigestPW%</Repeated>
+    <SerialHeader Name="Registrar">SipEp.ErrorMappingInsertSipToCause SipCode=604 Cause=34
+SipEp.ErrorMappingInsertSipToCause SipCode=606 Cause=34
+
+SipEp.BehaviorOnT38InviteNotAccepted[SipErrorCode=406].Behavior=ReInviteForClearChannelOnly
+SipEp.BehaviorOnT38InviteNotAccepted[SipErrorCode=488].Behavior=ReInviteForClearChannelOnly
+SipEp.BehaviorOnT38InviteNotAccepted[SipErrorCode=606].Behavior=ReInviteForClearChannelOnly
+
+SipEp.DefaultStaticProxyHomeDomainHost=%StaticProxy%:5060
+SipEp.DefaultStaticProxyOutboundHost=%DomainName%:0
+SipEp.DefaultProxyOutboundType=LooseRouter
+SipEp.DefaultSessionTimerEnable=Enable
+SipEp.DefaultSessionTimerMinimumExpirationDelay=1800
+SipEp.DefaultSessionTimerMaximumExpirationDelay=3600
+SipEp.DefaultRegistrationRefreshTime=60
+SipEp.DefaultRegistrationProposedExpirationValue=0
+SipEp.DefaultRegistrationUnregisteredBehavior=Disable
+SipEp.DefaultStaticRegistrarServerHost=%Registrar%:5060</SerialHeader>
+    <Simple Name="Footer">SipEp.TransportTlsPersistentBasePort=16000
+SipEp.TransportTlsPersistentRetryInterval=15
+SipEp.PenaltyBoxEnable=Enable
+SipEp.PenaltyBoxTime=300
+SipEp.SipKeepAliveMethod=None
+SipEp.SipKeepAliveInterval=30
+SipEp.UasPrackSupport=Unsupported
+SipEp.UacPrackSupport=Unsupported
+SipEp.InteropTransmissionTimeout=32
+SipEp.InteropTcpConnectTimeout=189
+SipEp.InteropSymmetricUdpSourcePortEnable=Enable
+SipEp.InteropMaxForwardsValue=70
+SipEp.InteropSendUaHeaderEnable=Enable
+SipEp.InteropSdpDirectionAttributeEnable=Enable
+SipEp.InteropOnHoldSdpStreamDirection=Inactive
+SipEp.InteropOnHoldAnswerSdpStreamDirection=Recvonly
+SipEp.InteropLocalRingOnProvisionalResponse=Disable
+SipEp.InteropSdpOriginLineSessionIdAndVersionMaxLength=Max64bits
+SipEp.InteropUseDtmfPayloadTypeFoundInAnswer=Disable
+SipEp.InteropRegisterHomeDomainOverride=""
+SipEp.InteropEnforceOfferAnswerModel=Enable
+SipEp.InteropMapPlusToTonInternational=Enable
+SipEp.InteropAllowLessMediaInResponse=Disable
+SipEp.InteropDefaultUsernameValue=Anonymous
+SipEp.InteropSdpT38ParametersEncoding=SippingRealTimeFax00InternetDraft
+SipEp.InteropAllowMultipleActiveMediaInAnswer=Enable
+SipEp.InteropIgnoreSipOptionsOnNoUsuableEndpoints=Disable
+SipEp.InteropSipOptionsMethodSupport=AlwaysOk
+SipEp.InteropAllowMediaReactivationInAnswer=Disable
+SipEp.InteropAllowAudioAndImageNegotiation=Disable
+SipEp.InteropEscapePoundInSipUriUsername=Enable
+SipEp.InteropSiemensTransportHeaderEnable=Disable
+SipEp.InteropTlsClientAuthenticationEnable=Disable
+SipEp.InteropTlsCertificateValidation=HostName
+SipEp.InteropIgnorePlusInUsername=Disable
+SipEp.InteropBehaviorOnMachineDetection=ReInviteOnFaxT38Only
+SipEp.InteropSipUriUserParameterValue=""
+SipEp.InteropListenForEarlyRtpEnable=Disable
+SipEp.InteropRegistrationContactMatching=Strict
+SipEp.InteropDtmfTransportMethod=DraftChoudhuriSipInfoDigit00
+SipEp.InteropDtmfTransportDuration=100
+
+
+
+#********************
+#********************
+#SERVICE: TelIf
+#********************
+#********************
+
+
+TelIf.CountrySelection=Germany2
+
+
+
+#********************
+#********************
+#SERVICE: Web
+#********************
+#********************
+
+Web.HttpMode=Both
+Web.ServerPort=80
+Web.SecureServerPort=443
+
+
+#********************
+#********************
+#SERVICE: Cli
+#********************
+#********************
+
+Cli.InactivityTimeOut=15
+Cli.EnableTelnet=Disable
+Cli.TelnetPort=23
+Cli.EnableSsh=Enable
+Cli.SshPort=22
+
+
+
+#********************
+#********************
+#LAST 
+#********************
+#********************
+
+
+Hoc.ManagementInterface=All</Simple>
+  </Serial>
+</Template>

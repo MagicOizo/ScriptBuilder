@@ -32,3 +32,31 @@ Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersio
 Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\ScriptBuilder\bin\Debug\Script Builder.exe.config
 Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\ScriptBuilder\obj\Debug\Script Builder.exe
 Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\ScriptBuilder\obj\Debug\Script Builder.pdb
+D:\C#-Projekte\Script-Builder\obj\Debug\Script-Builder.csproj.AssemblyReference.cache
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.AboutBox1.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.checkComplexVariable.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.createIfForm.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.serialWizard.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.importForm.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.mainForm.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.optionsForm.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.OutputLog.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.Properties.Resources.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.Resource1.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.AboutBox1.en-US.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.checkComplexVariable.en-US.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.createIfForm.en-US.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.serialWizard.en-US.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.importForm.en-US.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.mainForm.en-US.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.optionsForm.en-US.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script_Builder.OutputLog.en-US.resources
+D:\C#-Projekte\Script-Builder\obj\Debug\Script-Builder.csproj.GenerateResource.cache
+D:\C#-Projekte\Script-Builder\obj\Debug\Script-Builder.csproj.CoreCompileInputs.cache
+D:\C#-Projekte\Script-Builder\obj\Debug\en-US\Script Builder.resources.dll
+D:\C#-Projekte\Script-Builder\obj\Debug\Script Builder.exe
+D:\C#-Projekte\Script-Builder\obj\Debug\Script Builder.pdb
+D:\C#-Projekte\Script-Builder\bin\Debug\Script Builder.exe.config
+D:\C#-Projekte\Script-Builder\bin\Debug\Script Builder.exe
+D:\C#-Projekte\Script-Builder\bin\Debug\Script Builder.pdb
+D:\C#-Projekte\Script-Builder\bin\Debug\en-US\Script Builder.resources.dll

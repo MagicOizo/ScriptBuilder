@@ -131,8 +131,13 @@ namespace Script_Builder
         {
             if (!File.Exists(optionsFile))
             {
-                if(File.Exists(Path.Combine(Application.StartupPath, "OSV-Scripting-Help.pdf")))
-                    SetOptions("DokuPath", Path.Combine(Application.StartupPath, "OSV-Scripting-Help.pdf"));
+                if(File.Exists(Path.Combine(Application.StartupPath, "OSV-Scripting-Help_V10.pdf")))
+                    SetOptions("DokuPath", Path.Combine(Application.StartupPath, "OSV-Scripting-Help_V10.pdf"));
+                int tempMakroIndex = 0;
+                if (File.Exists(Path.Combine(Application.StartupPath, "example - DLS - change E164 DisplayID Remark.txt")))
+                    SetMakros(tempMakroIndex++.ToString(), "Example - DLS - Change E164", Path.Combine(Application.StartupPath, "example - DLS - change E164 DisplayID Remark.txt").ToString(), "Repeated");
+                if (File.Exists(Path.Combine(Application.StartupPath, "example - OSV - Add Subscribers.txt")))
+                    SetMakros(tempMakroIndex++.ToString(), "Example - OSV - New Subscriber", Path.Combine(Application.StartupPath, "example - OSV - Add Subscribers.txt").ToString(), "Repeated");
                 //SetOptions("Language", "English");
                 SetOptions("Language", "Deutsch");
                 WriteOptions();

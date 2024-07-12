@@ -182,6 +182,7 @@ namespace Script_Builder
             standard.Add("ShortcutCtrlL", "Strg+L");
             standard.Add("ShortcutCtrlD", "Strg+D");
             standard.Add("ShortcutCtrlI", "Strg+I");
+            standard.Add("ShortcutDel", "Entf");
             standard.Add("NodeFileFormatUTF", "Output Dateien UTF8");
             standard.Add("NodeFileFormatUnicode", "Output Dateien Unicode");
             standard.Add("NodeFileFormatASCII", "Output Dateien Basic ASCII");

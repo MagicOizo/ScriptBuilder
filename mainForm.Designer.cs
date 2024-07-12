@@ -110,10 +110,12 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.statusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.progressBar = new System.Windows.Forms.ToolStripProgressBar();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
             this.splitContainer.Panel1.SuspendLayout();
             this.splitContainer.Panel2.SuspendLayout();
             this.splitContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgrExcelContents)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -170,7 +172,6 @@
             // 
             // trvVorlageSelect
             // 
-            this.trvVorlageSelect.ContextMenuStrip = this.cxmVorlageSelect;
             resources.ApplyResources(this.trvVorlageSelect, "trvVorlageSelect");
             this.trvVorlageSelect.FullRowSelect = true;
             this.trvVorlageSelect.HideSelection = false;
@@ -179,7 +180,7 @@
             this.trvVorlageSelect.Name = "trvVorlageSelect";
             this.trvVorlageSelect.AfterLabelEdit += new System.Windows.Forms.NodeLabelEditEventHandler(this.trvVorlageSelect_AfterLabelEdit);
             this.trvVorlageSelect.BeforeSelect += new System.Windows.Forms.TreeViewCancelEventHandler(this.trvVorlageSelect_BeforeSelect);
-            this.trvVorlageSelect.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.trvVorlageSelect_KeyPress);
+            this.trvVorlageSelect.KeyUp += new System.Windows.Forms.KeyEventHandler(this.trvVorlageSelect_KeyUp);
             this.trvVorlageSelect.MouseDown += new System.Windows.Forms.MouseEventHandler(this.trvVorlageSelect_MouseDown);
             // 
             // cxmVorlageSelect
@@ -194,7 +195,6 @@
             this.toolStripSeparator11,
             this.tsmChangeOrder});
             this.cxmVorlageSelect.Name = "cxmVorlageSelect";
-            this.cxmVorlageSelect.OwnerItem = this.vorlageVerwaltenToolStripMenuItem;
             this.cxmVorlageSelect.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             resources.ApplyResources(this.cxmVorlageSelect, "cxmVorlageSelect");
             this.cxmVorlageSelect.Opening += new System.ComponentModel.CancelEventHandler(this.cxmVorlageSelect_Opening);
@@ -753,10 +753,12 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.mainForm_FormClosing);
             this.splitContainer.Panel1.ResumeLayout(false);
             this.splitContainer.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).EndInit();
             this.splitContainer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgrExcelContents)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.cxmVorlageSelect.ResumeLayout(false);
             this.pnlFileProperties.ResumeLayout(false);

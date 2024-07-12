@@ -52,7 +52,7 @@ namespace Script_Builder
                 this.openScriptingDoku.Enabled = false;
             this.cboNodeFileFormat.Items.AddRange(new object[] {
                 programmStrings.GetString("NodeFileFormatUTF"),
-                programmStrings.GetString("NodeFileFormatUnicode"), 
+                programmStrings.GetString("NodeFileFormatUnicode"),
                 programmStrings.GetString("NodeFileFormatASCII"),
                 programmStrings.GetString("NodeFileFormatANSI")});
 
@@ -68,6 +68,9 @@ namespace Script_Builder
 
             showTextBox(null);
             selectedNode = null;
+            if (nodeSelectionChanged(trvVorlageSelect.Nodes[0])) {
+                trvVorlageSelect.SelectedNode = selectedNode;
+            }
             #region Shortcuts Localisiert setzen
             beenden.ShortcutKeys = Keys.Control | Keys.End;
             createOutputFile.ShortcutKeys = Keys.Control | Keys.S;
@@ -90,6 +93,8 @@ namespace Script_Builder
             infoPageShow.ShortcutKeyDisplayString = programmStrings.GetString("ShortcutCtrlI");
             tsmOrderUp.ShortcutKeyDisplayString = "+";
             tsmOrderDown.ShortcutKeyDisplayString = "-";
+            tsmEditName.ShortcutKeyDisplayString = "F2";
+            tsmRemove.ShortcutKeyDisplayString = programmStrings.GetString("ShortcutDel"); ;
             #endregion
             /*mnuChangeNodeName.Enabled = false;
             mnuRemoveNode.Enabled = false;
@@ -98,6 +103,7 @@ namespace Script_Builder
             mnuChangeOrder.Enabled = false;*/
             //cxmTextBox = new ContextMenuStrip(this.components);
             outputLog = new List<string>();
+            trvVorlageSelect.Select();
         }
 
         private void dgrExcelContents_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -679,6 +685,9 @@ namespace Script_Builder
 
         public void createMakroMenu(List<makroKeys> makroKeys)
         {
+            if(makrosMenu == null) {
+                return;
+            }
             makrosMenu.DropDownItems.Clear();
             makrosMenu.DropDownItems.AddRange(new ToolStripItem[] {
                 this.groupDefaultHeader,
@@ -1941,7 +1950,11 @@ namespace Script_Builder
                 }
             }*/
             trvVorlageSelect.Invalidate();
-        }
+            if(selectedNode != null && e.Button == MouseButtons.Right)
+            {
+                cxmVorlageSelect.Show(trvVorlageSelect, e.Location);
+            }
+        } 
 
         private bool nodeSelectionChanged(TreeNode changeSelectedNode)
         {
@@ -2011,11 +2024,17 @@ namespace Script_Builder
 
         private void tsmRemove_Click(object sender, EventArgs e)
         {
+            deleteSelectedNode();
+        }
+
+        private void deleteSelectedNode()
+        {
             if (selectedNode != null)
             {
                 string Frage;
-                if(nodeTypen.ContainsKey(selectedNode)) {
-                    switch(nodeTypen[selectedNode])
+                if (nodeTypen.ContainsKey(selectedNode))
+                {
+                    switch (nodeTypen[selectedNode])
                     {
                         case VorlagenType.Header:
                         case VorlagenType.Footer:
@@ -2049,7 +2068,7 @@ namespace Script_Builder
                                 splitContainer1.Panel2.Controls.Remove(nodeTextBoxes[thisTreeNode]);
                                 nodeTextBoxes.Remove(thisTreeNode);
                             }
-                            if(nodeOutputFile.ContainsKey(selectedNode))
+                            if (nodeOutputFile.ContainsKey(selectedNode))
                                 nodeOutputFile.Remove(selectedNode);
                             trvVorlageSelect.Nodes.Remove(selectedNode);
                         }
@@ -2673,20 +2692,6 @@ namespace Script_Builder
                 e.Cancel = true;
         }
 
-        private void trvVorlageSelect_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)43) //plus (+)
-            {
-                changeNodeOrder(true);
-                e.Handled = true;
-            }
-            else if (e.KeyChar == (char)45) //minus (-)
-            {
-                changeNodeOrder(false);
-                e.Handled = true;
-            }
-        }
-
         private void stripColumn_Click(object sender, EventArgs e)
         {
             if (!(sender is ToolStripMenuItem))
@@ -2715,6 +2720,37 @@ namespace Script_Builder
                     spalteEntfernenToolStripMenuItem.DropDownItems.Add(tsmTempColumn);
                 }
                 spalteEntfernenToolStripMenuItem.Enabled = true;
+            }
+        }
+
+        private void trvVorlageSelect_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Oemplus || e.KeyCode == Keys.Add) // .KeyValue == (char)43) //plus (+)
+            {
+                changeNodeOrder(true);
+                e.Handled = true;
+                return;
+            }
+            if (e.KeyCode == Keys.OemMinus || e.KeyCode == Keys.Subtract) //e.KeyValue == (char)45) //minus (-)
+            {
+                changeNodeOrder(false);
+                e.Handled = true;
+                return;
+            }
+            if (e.KeyCode == Keys.Delete)
+            {
+                deleteSelectedNode();
+                e.Handled = true;
+                return;
+            }
+            if (e.KeyCode == Keys.F2)
+            {
+                if (selectedNode == null)
+                    return;
+                trvVorlageSelect.LabelEdit = true;
+                selectedNode.BeginEdit();
+                e.Handled = true;
+                return;
             }
         }
     }
