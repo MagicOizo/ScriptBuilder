@@ -1,1 +1,0 @@
-Z:\Max\C#-Projekte\Script-Builder_for_OpenScape_Voice\Script-Builder - GitVersion\bin\Release\Script Builder.exe.config
