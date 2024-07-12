@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Script-Builder", "Script-Builder.csproj", "{1E93FB53-0A8C-4F88-8B37-AC595616B002}"
 EndProject
@@ -9,15 +9,12 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-		test|Any CPU = test|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1E93FB53-0A8C-4F88-8B37-AC595616B002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E93FB53-0A8C-4F88-8B37-AC595616B002}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E93FB53-0A8C-4F88-8B37-AC595616B002}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E93FB53-0A8C-4F88-8B37-AC595616B002}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1E93FB53-0A8C-4F88-8B37-AC595616B002}.test|Any CPU.ActiveCfg = test|Any CPU
-		{1E93FB53-0A8C-4F88-8B37-AC595616B002}.test|Any CPU.Build.0 = test|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
